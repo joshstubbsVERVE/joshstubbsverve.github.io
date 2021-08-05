@@ -34731,7 +34731,7 @@ a.u-link.u-text-hover-grey-90:hover {
 }
 
 .u-header .u-sheet-1 {
-  min-height: 86px;
+  min-height: 79px;
 }
 
 .u-header .u-social-icons-1 {
@@ -34741,7 +34741,7 @@ a.u-link.u-text-hover-grey-90:hover {
   width: 175px;
   min-width: 120px;
   animation-duration: 1000ms;
-  margin: 30px auto 0 0;
+  margin: 22px auto 0 0;
 }
 
 .u-header .u-icon-1 {
@@ -34758,22 +34758,60 @@ a.u-link.u-text-hover-grey-90:hover {
 
 .u-header .u-icon-4 {
   height: 100%;
+  color: rgb(113, 81, 146) !important;
 }
 
 .u-header .u-icon-5 {
   height: 100%;
+  color: rgb(113, 81, 146) !important;
 }
 
 .u-header .u-image-1 {
   width: 42px;
   height: 21px;
-  margin: -24px 21px 32px auto;
+  margin: -24px 21px 0 auto;
+}
+
+.u-header .u-text-1 {
+  font-size: 1rem;
+  font-weight: normal;
+  margin: -22px auto 0;
+}
+
+.u-header .u-image-2 {
+  width: 35px;
+  height: 27px;
+  margin: -27px 420px 0 auto;
+}
+
+.u-header .u-image-3 {
+  width: 54px;
+  height: 28px;
+  margin: -22px 63px 0 auto;
+}
+
+.u-header .u-image-4 {
+  width: 54px;
+  height: 28px;
+  margin: -27px 107px 0 auto;
+}
+
+.u-header .u-image-5 {
+  width: 54px;
+  height: 28px;
+  margin: -28px 149px 0 auto;
+}
+
+.u-header .u-image-6 {
+  width: 54px;
+  height: 28px;
+  margin: -27px 193px 16px auto;
 }
 .u-header .u-sheet-2 {
   min-height: 140px;
 }
 
-.u-header .u-image-2 {
+.u-header .u-image-7 {
   margin: 30px auto 0 83px;
 }
 
@@ -34830,13 +34868,48 @@ a.u-link.u-text-hover-grey-90:hover {
     margin-top: -24px;
     margin-right: 21px;
   }
+
+  .u-header .u-text-1 {
+    margin-top: -22px;
+  }
+
+  .u-header .u-image-2 {
+    width: 35px;
+    height: 27px;
+    margin-top: -27px;
+    margin-right: 420px;
+  }
+
+  .u-header .u-image-3 {
+    margin-top: -22px;
+    margin-right: 63px;
+  }
+
+  .u-header .u-image-4 {
+    margin-top: -27px;
+    margin-right: 107px;
+  }
+
+  .u-header .u-image-5 {
+    margin-top: -28px;
+    margin-right: 149px;
+  }
+
+  .u-header .u-image-6 {
+    margin-top: -27px;
+    margin-right: 193px;
+  }
 }
 
 
 
 
 
-
+@media (max-width: 575px) {
+  .u-header .u-image-2 {
+    margin-right: 305px;
+  }
+}
 
 .u-footer {
   background-image: none;
